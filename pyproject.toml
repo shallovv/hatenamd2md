@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hatenamd2md"
+version = "0.1.0"
+description = "Convert Hatena Blog article written in Markdown mode to Markdown"
+authors = ["shallovv <miomio.ll.8507@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+hatenamd2md = 'hatenamd2md:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
